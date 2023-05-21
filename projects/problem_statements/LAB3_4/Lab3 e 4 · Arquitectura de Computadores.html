@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/lab3-e-4 -->
+<html dir="ltr" lang="pt_PT"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="Content-Language" content="pt">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="FenixEdu™ is an open-source academic information platform.">
+    <meta name="Keywords" content="FenixEdu, open-source, academic, information, platform, academic administration, higher education, e-learning">
+    <meta name="Language" content="pt_PT">
+    <meta name="Author" content="FenixEdu">
+    <meta name="Email" content="hello@fenixedu.org">
+    <meta name="Copyright" content="Técnico Lisboa - Instituto Superior Técnico">
+    <meta name="Distribution" content="Global">
+    <meta name="Rating" content="General">
+
+    <!-- OpenGraph Specific Metas -->
+    <meta property="og:title" content="FenixEdu™">
+    <meta property="og:type" content="application">
+    <meta property="og:url" content="http://www.fenixedu.org">
+    <meta property="og:site_name" content="FenixEdu">
+    <meta property="og:description" content="FenixEdu Learning is an open-source academic information platform.">
+    <meta property="fb:profile_id" content="379238245509413">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
+
+            <title>Lab3 e 4 · Arquitectura de Computadores</title>
+    
+    <link href="./Lab3 e 4 · Arquitectura de Computadores_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Lab3 e 4 · Arquitectura de Computadores_files/publicPages.css" rel="stylesheet">
+    <script src="./Lab3 e 4 · Arquitectura de Computadores_files/jquery-2.1.1.min.js.transferir" type="text/javascript"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://fenix.tecnico.ulisboa.pt/cms/assets/fenixedu-learning-theme/3f320991bcafbf4e/js/html5shiv.js"></script>
+      <script src="https://fenix.tecnico.ulisboa.pt/cms/assets/fenixedu-learning-theme/3f320991bcafbf4e/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    <!-- Header -->
+        <!-- End Header -->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://fenix.tecnico.ulisboa.pt/api/bennu-portal/configuration/favicon">
+  </head>
+
+  <body>
+
+        	<div id="headcounter">
+		<div class="container">
+			
+
+		<div class="row" style="padding-top:50px; padding-bottom:25px;">
+			<div class="col-sm-9">
+        <div>
+				  <a href="http://tecnico.ulisboa.pt/" target="_blank"><img class="logo" src="./Lab3 e 4 · Arquitectura de Computadores_files/logo"></a>
+        </div>
+			</div>
+			<div class="col-sm-3 ">
+        <div>
+	           
+        </div>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+		<div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <h2 style="font-weight:300;" class="site-header"><a href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre">Arquitectura de Computadores</a>  </h2>
+          
+            <div style="font-size:15px; color:#888; margin-top:5px; margin-bottom:15px;"><small>
+              &nbsp;</small></div>          
+        </div>
+        <div class="col-sm-3 hidden-xs">
+              <div style="margin-top: 25px;">
+                <img src="./Lab3 e 4 · Arquitectura de Computadores_files/icon_global.svg" width="13" height="13" style="margin-bottom:2px;margin-right:10px">
+                                        <a class="locale-changer active" title="português (Portugal)" onclick="setLang(&#39;pt_PT&#39;)">pt</a>
+                                        <a class="locale-changer " title="inglês (Reino Unido)" onclick="setLang(&#39;en_GB&#39;)">en</a>
+                                </div>
+        </div>
+      </div>
+	  		</div>
+	
+    <div class="container">
+
+      <main class="row">
+
+        <div class="col-sm-9 main-content" id="content-block">
+          <h3 style="font-weight:300; margin-bottom: 22px; margin-top:0px;">
+                
+            
+          </h3>
+              	    
+    <div>
+        
+            
+            <p></p><h3>Enunciado do Lab 3 e 4</h3>
+
+<p>Pretende-se implementar no conjunto dos
+trabalhos 3 e 4 de laboratório uma versão do jogo Mastermind (<a href="https://en.wikipedia.org/wiki/Mastermind_%28board_game%29"><u>https://en.wikipedia.org/wiki/Mastermind_(board_game)</u></a>
+e <a href="http://mathworld.wolfram.com/Mastermind.html"><u>http://mathworld.wolfram.com/Mastermind.html</u></a>).
+O jogo a implementar deve permitir não só que a máquina gere uma sequência de
+cores e que avalie as tentativas do jogador (lab3) como também que a máquina
+seja capaz de adivinhar uma sequência definida pelo jogador (lab4). O trabalho
+a desenvolver utilizará os diversos periféricos associados ao simulador do
+processador P3, conforme indicado no <a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1126518382179550/Lab3e4%20MEEC%2016-17_VF.pdf">enunciado</a>. </p>
+
+<h3>Simulador do P3</h3><p>O simulador do P3 que será usado está <a href="http://algos.inesc-id.pt/arq-comp/?Material_Did%C3%A1tico___Processador_P3"><u>aqui</u></a>. Terão que fazer download da versão do simulador (em java) e do  assembler (para o sistema operativo que desejarem ou o código fonte e  depois compilam).</p><p>O p3sim é uma aplicação em Java. Por isso será necessário ter o Java instalado antes de executar o p3sim. Pode instalar o Java a partir  deste link: <a href="http://www.java.com/"><u>http://www.java.com</u></a>.</p><p>Após instalar o Java, para executar o simulador na linha de comandos, basta fazer: java -jar p3sim.jar</p><p>No link apresentado em cima encontra-se também o manual do P3.</p><p>Existe igualmente uma colectânea de exemplos de programação no seguinte ficheiro:&nbsp;<a href="https://fenix.tecnico.ulisboa.pt/downloadFile/563568428727441/P3Examples.zip"><u>P3Examples.zip</u></a>.</p><p>Para auxilio à micro-programação e em geral como material de consulta rápida devem utilizar o&nbsp;<a href="https://fenix.tecnico.ulisboa.pt/downloadFile/563568428727444/anexo_AC.pdf"><u>Anexo de Arquitectura de Computadores</u></a>.</p><p><br></p><h3>Submissão do código em formato PDF</h3><p>A aplicação p3print (&nbsp;<a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1970943312291230/p3print_win.zip">windows</a>&nbsp;/&nbsp;<a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1970943312291229/p3print_linux_2.0.zip">linux</a>&nbsp;) gera um ficheiro .ps (formato PostScript) a partir do assembly. Para gerarem o ficheiro pdf a partir do .ps podem utilizar os programas gsview/ghostscript, ou o comando "ps2pdf", ou converter online em, por exemplo:&nbsp;</p><p><br><a href="https://online2pdf.com/convert-ps-to-pdf">https://online2pdf.com/convert-ps-to-pdf</a><br></p><p></p>
+
+                            <p>
+                </p><h4>Attachments</h4>
+                <ul>
+                                            <li><a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1126518382179550/Lab3e4%20MEEC%2016-17_VF.pdf">Lab3e4 MEEC 16-17_VF.pdf</a></li>
+                                            <li><a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1970943312291229/p3print_linux_2.0.zip">p3print_linux_2.0.zip</a></li>
+                                            <li><a href="https://fenix.tecnico.ulisboa.pt/downloadFile/1970943312291230/p3print_win.zip">p3print_win.zip</a></li>
+                                    </ul>
+                <p></p>
+            
+        
+    </div><!-- /.blog-post -->
+
+
+	        </div>
+        
+
+
+<nav class="col-sm-3" style="padding-left:0px; padding-top:60px;z-index:999; margin-left:-1px;">
+  <!-- REGULAR MENU -->
+            <div class="sidebar-module">
+            
+                  <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/pagina-inicial">
+      Página Inicial              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/rss/announcement"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/grupos">
+      Grupos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/avaliacao">
+      Avaliação          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/bibliografia">
+      Bibliografia          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/horario">
+      Horário          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/metodos-de-avaliacao">
+      Métodos de Avaliação          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/objectivos">
+      Objectivos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/planeamento">
+      Planeamento          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/programa">
+      Programa          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/turnos">
+      Turnos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/anuncios">
+      Anúncios              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/rss/announcement"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/sumarios">
+      Sumários              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/rss/summary"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/notas">
+      Notas          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/resultado-dos-quc">
+      Resultado dos QUC          </a>
+        </li>
+                    </ul>
+          </div>
+            <div class="sidebar-module">
+            
+                  <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/pauta-168">
+      Pautas 2016/2017          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/planeamento-20162017">
+      Planeamento 2016/2017          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/teoricas-20162017">
+      Teóricas 2016/2017          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/praticas-20162017">
+      Práticas 2016/2017          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/p1">
+      P1          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/p2">
+      P2          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/p3">
+      P3          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/p4">
+      P4          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem open ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/labs-20162017">
+      Labs 2016/2017          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/lab0">
+      Lab0          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/lab1-957">
+      Lab1          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/lab2-c72">
+      Lab2          </a>
+        </li>
+                                        <li class="menuItem open active">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/lab3-e-4">
+      Lab3 e 4          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/ACom11645111326/2016-2017/2-semestre/testes-e-exercicios-4d9">
+      Testes e Exames          </a>
+        </li>
+                    </ul>
+          </div>
+    
+    <div class="sidebar-module">
+    </div>
+</nav>
+
+<script type="text/javascript">
+(function() {
+  $('.menuFolder:not(.open)>.children').hide();
+  $('.menuFolder>p').click(function(event){
+    $(this).parent().toggleClass('open');
+    $(this).parent().children('.children').slideToggle();
+    event.preventDefault();
+  });
+  setLang=function(l){$.post('/api/bennu-core/profile/locale/'+l.replace('_', '-')).always(function(){location.reload();})}
+})();
+</script>
+
+      </main><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="container" style="border-top:1px solid #ddd; margin-top:30px">
+      <div class="col-sm-9">
+        <a class="brand" href="http://fenixedu.org/"><img width="150" height="34" src="./Lab3 e 4 · Arquitectura de Computadores_files/logo_fenixedu_footer.svg" alt="Powered by FenixEdu"></a>
+      </div>
+
+      <div class="col-sm-3" style="color:#888">
+        <span style="padding-left:15px;">© Instituto Superior Técnico</span>
+      </div>
+      
+    </footer>
+
+    <script src="./Lab3 e 4 · Arquitectura de Computadores_files/bootstrap.min.js.transferir" type="text/javascript" async=""></script>
+  
+</body></html>

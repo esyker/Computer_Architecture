@@ -1,0 +1,31 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 3f34a1e57292492ea88d1d680a9a7ec0 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SimulDataPath_behav xil_defaultlib.SimulDataPath -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Decoder [decoder_default]
+Compiling architecture structural of entity xil_defaultlib.Register16 [register16_default]
+Compiling architecture structural of entity xil_defaultlib.mux16to1 [mux16to1_default]
+Compiling architecture structural of entity xil_defaultlib.mux16to1_16 [mux16to1_16_default]
+Compiling architecture structural of entity xil_defaultlib.RegisterFile [registerfile_default]
+Compiling architecture structural of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.ArithmeticUnitI [arithmeticuniti_default]
+Compiling architecture structural of entity xil_defaultlib.ArithmeticUnit [arithmeticunit_default]
+Compiling architecture structural of entity xil_defaultlib.LogicUnitI [logicuniti_default]
+Compiling architecture structural of entity xil_defaultlib.LogicUnit [logicunit_default]
+Compiling architecture structural of entity xil_defaultlib.Shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero [zero_default]
+Compiling architecture behavioral of entity xil_defaultlib.Buf [buf_default]
+Compiling architecture structural of entity xil_defaultlib.FunctionalUnit [functionalunit_default]
+Compiling architecture structural of entity xil_defaultlib.DataMemory [datamemory_default]
+Compiling architecture structural of entity xil_defaultlib.DataPath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.simuldatapath
+Built simulation snapshot SimulDataPath_behav

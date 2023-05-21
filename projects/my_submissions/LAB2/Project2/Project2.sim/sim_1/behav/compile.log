@@ -1,0 +1,46 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/FullAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FullAdder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/LogicUnitI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LogicUnitI
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/ArithmeticUnitI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ArithmeticUnitI
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/LogicUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LogicUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Zero.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Zero
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Shifter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Shifter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/ArithmeticUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ArithmeticUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Buf.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Buf
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/InstructionMemory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionMemory
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/RegisterN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterN
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/FunctionalUnit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FunctionalUnit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/DataMemory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DataMemory
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/branchcontrol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity branchcontrol
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Addern.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Addern
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Execute.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Execute
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/Memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Memory
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/InstructionDecode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecode
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/WriteBack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity WriteBack
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/InstructionFetch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionFetch
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/RegisterFile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterFile
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sources_1/imports/design/SingleCycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SingleCycle
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/User/Desktop/Project2/Project2.srcs/sim_1/imports/sim/testSingleCycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testSingleCycle

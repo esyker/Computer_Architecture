@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/FullAdder.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/LogicUnitI.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/ArithmeticUnitI.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/LogicUnit.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Zero.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Shifter.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/ArithmeticUnit.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Buf.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Decoder.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/InstructionMemory.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/RegisterN.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/FunctionalUnit.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/DataMemory.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/branchcontrol.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Addern.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Execute.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/Memory.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/InstructionDecode.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/WriteBack.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/InstructionFetch.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/RegisterFile.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sources_1/imports/design/SingleCycle.vhd"
+vhdl xil_defaultlib  "../../../Project2.srcs/sim_1/imports/sim/testSingleCycle.vhd"
+
+# Do not sort compile order
+nosort

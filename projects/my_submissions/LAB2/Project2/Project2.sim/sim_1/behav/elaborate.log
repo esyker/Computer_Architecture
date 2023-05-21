@@ -1,0 +1,40 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/ProgramFiles/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 8f06e471cd3d464cb3dc48507831d08c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testSingleCycle_behav xil_defaultlib.testSingleCycle -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture structural of entity xil_defaultlib.InstructionMemory [instructionmemory_default]
+Compiling architecture structural of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture structural of entity xil_defaultlib.Addern [\Addern(n_bits=8)\]
+Compiling architecture structural of entity xil_defaultlib.RegisterN [\RegisterN(n_bits=8)\]
+Compiling architecture structural of entity xil_defaultlib.InstructionFetch [instructionfetch_default]
+Compiling architecture structural of entity xil_defaultlib.InstructionDecode [instructiondecode_default]
+Compiling architecture structural of entity xil_defaultlib.ArithmeticUnitI [arithmeticuniti_default]
+Compiling architecture structural of entity xil_defaultlib.ArithmeticUnit [arithmeticunit_default]
+Compiling architecture structural of entity xil_defaultlib.LogicUnitI [logicuniti_default]
+Compiling architecture structural of entity xil_defaultlib.LogicUnit [logicunit_default]
+Compiling architecture structural of entity xil_defaultlib.Shifter [shifter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Zero [zero_default]
+Compiling architecture behavioral of entity xil_defaultlib.Buf [buf_default]
+Compiling architecture structural of entity xil_defaultlib.FunctionalUnit [functionalunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.branchcontrol [branchcontrol_default]
+Compiling architecture structural of entity xil_defaultlib.Execute [execute_default]
+Compiling architecture structural of entity xil_defaultlib.DataMemory [datamemory_default]
+Compiling architecture structural of entity xil_defaultlib.Memory [memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.WriteBack [writeback_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder [decoder_default]
+Compiling architecture structural of entity xil_defaultlib.RegisterN [\RegisterN(n_bits=32)\]
+Compiling architecture structural of entity xil_defaultlib.RegisterFile [registerfile_default]
+Compiling architecture structural of entity xil_defaultlib.SingleCycle [singlecycle_default]
+Compiling architecture behavioral of entity xil_defaultlib.testsinglecycle
+Built simulation snapshot testSingleCycle_behav
